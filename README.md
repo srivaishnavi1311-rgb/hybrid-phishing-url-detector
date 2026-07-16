@@ -130,18 +130,24 @@ GitHub: https://github.com/srivaishnavi1311-rgb
 
 ### 🏠 Home Page
 
-![Home Page](images/home.png)
+![Home Page]
+<img width="1918" height="968" alt="Home" src="https://github.com/user-attachments/assets/8febe1cb-11c7-41c1-96cc-6bacc3779178" />
+
 
 ---
 
 ### ✅ Safe URL Detection
 
-![Safe URL](images/safe.png)
+![Safe URL]
+<img width="1918" height="968" alt="Safe" src="https://github.com/user-attachments/assets/5f6ce01a-4d4a-428c-885c-0a59ac1d19cd" />
+
 
 ---
 
 ### ⚠️ Suspicious URL Detection
 
-![Suspicious URL](images/suspicious.png)
+![Suspicious URL]
+<img width="1918" height="965" alt="Suspicious" src="https://github.com/user-attachments/assets/49c12f03-9838-479a-8b18-ada21e93f9d5" />
+
 
 ---
