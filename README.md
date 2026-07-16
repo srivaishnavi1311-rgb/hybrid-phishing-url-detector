@@ -145,7 +145,3 @@ GitHub: https://github.com/srivaishnavi1311-rgb
 ![Suspicious URL](images/suspicious.png)
 
 ---
-
-### ❌ Phishing URL Detection
-
-![Phishing URL](images/phishing.png)
