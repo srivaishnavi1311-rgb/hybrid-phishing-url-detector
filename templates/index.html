@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing URL Detector</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Pulse effect for danger body */
+        @keyframes pulseRed {
+            0% { background-color: #f16c5b; }
+            50% { background-color: #f1948a; }
+            100% { background-color: #f16c5b; }
+        }
+
+        body.safe {
+            background-color: #d4edda; /* soft green */
+            color: #155724;
+        }
+
+        body.danger {
+            animation: pulseRed 1.5s infinite;
+            color: #721c24;
+        }
+
+        .container {
+            max-width: 700px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        input.form-control {
+            font-size: 1.1rem;
+        }
+
+        button.btn {
+            font-size: 1.1rem;
+        }
+
+        .result {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .danger-box {
+            background-color: #e74c3c; /* darker red for result */
+            color: #ffffff;
+        }
+
+        .safe-box {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .btn-home {
+            margin-top: 15px;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body class="{% if alert_type %}{{ alert_type }}{% endif %}">
+<div class="container">
+    <h2>Phishing URL Detector</h2>
+
+    <!-- Input form always visible -->
+    <form method="POST">
+        <div class="mb-3">
+            <label for="url" class="form-label">Enter URL to check:</label>
+            <input type="text" class="form-control" id="url" name="url" placeholder="https://example.com" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Check URL</button>
+    </form>
+
+    <!-- Result box -->
+    {% if url %}
+        <div class="result {% if alert_type == 'danger' %}danger-box{% else %}safe-box{% endif %}">
+            {% if alert_type == 'danger' %}<span class="icon">⚠️</span>{% else %}<span class="icon">✅</span>{% endif %}
+            {{ result }} — <strong>{{ url }}</strong>
+        </div>
+        {% if alert_type == 'danger' %}
+            <a href="/" class="btn btn-secondary btn-home">Go Back</a>
+        {% endif %}
+    {% endif %}
+</div>
+</body>
+</html>

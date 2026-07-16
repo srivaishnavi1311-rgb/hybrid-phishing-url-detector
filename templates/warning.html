@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>⚠ Phishing Warning!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ffe6e6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff0f0;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+        h1 {
+            color: #cc0000;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .url-box {
+            background-color: #fff0f0;
+            padding: 15px 20px;
+            border: 1px solid #cc0000;
+            margin-top: 15px;
+            word-break: break-all;
+        }
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #cc0000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚠ Warning: Phishing Detected!</h1>
+        {% if url %}
+        <p>The URL you tried to access is potentially dangerous:</p>
+        <div class="url-box"><strong>{{ url }}</strong></div>
+        {% endif %}
+        <p>Do NOT proceed to this site.</p>
+        <a href="{{ url_for('home') }}">Go Back to Home</a>
+    </div>
+</body>
+</html>
