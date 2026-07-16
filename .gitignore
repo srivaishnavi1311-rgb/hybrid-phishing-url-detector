@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+scan_log.csv
+
+.vscode/
+.idea/
+
+.env
+venv/
