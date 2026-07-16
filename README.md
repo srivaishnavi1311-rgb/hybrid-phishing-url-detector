@@ -117,7 +117,7 @@ http://127.0.0.1:5000
 
 ## 👩‍💻 Author
 
-**Sri Vaishnavi V and Sandhiya**
+**Sri Vaishnavi V and Sandhiya V**
 
 B.Tech – Artificial Intelligence & Data Science
 
