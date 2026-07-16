@@ -77,19 +77,13 @@ pip install flask pandas numpy scikit-learn joblib
 
 ---
 
-## ▶️ Run the Application
+## ▶️ How to Run
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
-
-```
-http://127.0.0.1:5000
-```
-
----
+After starting the Flask server, open the local URL shown in the terminal.
 
 ## 🧠 How It Works
 
