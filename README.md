@@ -126,5 +126,3 @@ Kings Engineering College
 GitHub: https://github.com/srivaishnavi1311-rgb
 
 ---
-
-⭐ If you found this project useful, consider giving it a star!
