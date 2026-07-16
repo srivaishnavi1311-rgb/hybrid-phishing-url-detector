@@ -100,7 +100,7 @@ http://127.0.0.1:5000
 5. The application classifies the URL as:
 
 - ✅ Safe
-- ⚠️ Suspicious
+- ❌ Phishing
 
 ---
 
@@ -142,7 +142,7 @@ GitHub: https://github.com/srivaishnavi1311-rgb
 
 ---
 
-### ⚠️ Suspicious URL Detection
+### ❌ Phishing URL Detection
 
 
 <img width="1918" height="965" alt="Suspicious" src="https://github.com/user-attachments/assets/49c12f03-9838-479a-8b18-ada21e93f9d5" />
