@@ -1,10 +1,10 @@
-# 🔒 Hybrid Phishing URL Detector
+#  Hybrid Phishing URL Detector
 
 A web-based phishing URL detection system that combines **Machine Learning** and **Rule-Based Analysis** to identify malicious websites. The application is built using **Python** and **Flask**, providing users with a simple interface to check whether a URL is **Safe**, **Suspicious**, or **Phishing**.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Phishing attacks trick users into revealing sensitive information through fake websites. This project detects phishing URLs by combining:
 
@@ -16,18 +16,18 @@ The hybrid approach improves detection by using both predefined security rules a
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Detects phishing URLs
-- 🤖 Machine Learning-based prediction
-- 📋 Rule-based URL analysis
-- 🌐 Flask web interface
-- ⚡ Fast prediction results
-- 💻 Easy to run locally
+-  Detects phishing URLs
+-  Machine Learning-based prediction
+-  Rule-based URL analysis
+-  Flask web interface
+-  Fast prediction results
+-  Easy to run locally
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Flask
@@ -40,7 +40,7 @@ The hybrid approach improves detection by using both predefined security rules a
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 hybrid-phishing-url-detector/
@@ -61,7 +61,7 @@ hybrid-phishing-url-detector/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -77,7 +77,7 @@ pip install flask pandas numpy scikit-learn joblib
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python app.py
@@ -85,7 +85,7 @@ python app.py
 
 After starting the Flask server, open the local URL shown in the terminal.
 
-## 🧠 How It Works
+##  How It Works
 
 1. User enters a URL.
 2. The system performs rule-based checks.
@@ -98,7 +98,7 @@ After starting the Flask server, open the local URL shown in the terminal.
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Browser Extension
 - Real-time URL Reputation API
@@ -108,7 +108,7 @@ After starting the Flask server, open the local URL shown in the terminal.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Sri Vaishnavi V and Sandhiya V**
 
@@ -119,9 +119,9 @@ Kings Engineering College
 GitHub: https://github.com/srivaishnavi1311-rgb
 
 ---
-## 📸 Screenshots
+##  Screenshots
 
-### 🏠 Home Page
+###  Home Page
 
 <img width="1918" height="968" alt="Home" src="https://github.com/user-attachments/assets/8febe1cb-11c7-41c1-96cc-6bacc3779178" />
 
