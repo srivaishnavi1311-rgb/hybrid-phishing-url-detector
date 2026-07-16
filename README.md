@@ -126,3 +126,26 @@ Kings Engineering College
 GitHub: https://github.com/srivaishnavi1311-rgb
 
 ---
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](images/home.png)
+
+---
+
+### ✅ Safe URL Detection
+
+![Safe URL](images/safe.png)
+
+---
+
+### ⚠️ Suspicious URL Detection
+
+![Suspicious URL](images/suspicious.png)
+
+---
+
+### ❌ Phishing URL Detection
+
+![Phishing URL](images/phishing.png)
